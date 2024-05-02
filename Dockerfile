@@ -1,6 +1,6 @@
 FROM registry.access.redhat.com/ubi8/ruby-27
 USER default
-EXPOSE 3000
+EXPOSE 8081
 ENV RACK_ENV production
 ENV RAILS_ENV production
 COPY . /opt/app-root/src/
